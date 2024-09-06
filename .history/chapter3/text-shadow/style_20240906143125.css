@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+}
+
+.heading {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: gold;
+  text-shadow: 5px 5px 20px black;
+}

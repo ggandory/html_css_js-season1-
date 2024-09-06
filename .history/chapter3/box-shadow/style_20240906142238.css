@@ -1,0 +1,31 @@
+div {
+  background-color: #ccc;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+.box1 {
+  /*box-shadow: x축이동거리 y축이동거리 퍼짐정도 색상;
+  */
+  box-shadow: 5px 5px 20px blue;
+}
+
+.box2 {
+  box-shadow: 0 0 20px dodgerblue;
+}
+
+.box3 {
+  box-shadow: 10px 10px 5px crimson;
+}
+
+.box4 {
+}
+
+.box5 {
+}
+
+.box6 {
+}

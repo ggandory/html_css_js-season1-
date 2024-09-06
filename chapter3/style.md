@@ -1,0 +1,29 @@
+margin, padding 속성의 크기 지정
+
+1. 크기 값을 사용하는 경우: 상하좌우 전부 값이 적용
+   margin: 30px;
+
+2. 두 개의 크기 값을 사용하는 경우 : 위쪽 및 아래쪽, 왼쪽 및 오른쪽
+   margin: 30px 5px;
+
+3. 4가지 크기의 값을 사용할 경우
+   margin: 10px 20px 30px 40px;
+
+box-sizing: border-box;
+이거를 넣어주면
+
+- 초기 너비 값에 패딩 값과 경계 값을 모두 포함해버림
+  (pdding값이나 border값 등등 다 빼버림)
+
+box-shadow:
+inset 안쪽그림자
+offset-x 수평 그림자의 offset 값
+offset-y 수직 그림자의 offset 값
+blur 그림자 가장자리를 부드럽게 처리하는 정도 (기본값o)
+color 색상 지정
+
+text-shadow
+offset-x: 그림자의 수평 거리를 정합니다.(필수)
+offset-y: 그림자의 수직 거리를 정합니다.(필수)
+blur-radius: 흐림 정도를 정합니다.(선택: 값을 정하지 않으면 o)
+color: 색상을 정합니다.(선택: 값을 정하지 않으면 텍스트 색상)

@@ -1,0 +1,25 @@
+body {
+  color: #000;
+}
+a {
+  /* 인라인은 너비값만 넓어질 수 있음(마진으로만) */
+  color: #000;
+  text-decoration: none; /*밑줄 없애는거*/
+  border: 1px solid red;
+  width: 300px; /*인라인은 width,height 못줌.*/
+  height: 200px;
+  margin: 50px; /*인라인은 상하 마진을 못가진다.*/
+  display: block;
+}
+
+div {
+  border: 1px solid red;
+  height: 100px;
+  /* width: 100%; 블록요소라서 width자체가 100%로임 굳이 안넣어줘도 됨*/
+  margin: 50px;
+}
+
+img {
+  border: 1px solid red;
+  margin: 50px;
+}

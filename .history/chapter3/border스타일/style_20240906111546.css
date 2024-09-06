@@ -1,0 +1,16 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 5px double blue;
+  border-bottom: none; /*이렇게도 처리가능 아래만 안나옴*/
+  border-top: 5px dashed red; /*위에만 다르게 표현 가능*/
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: doderblue;
+  border: 10px solid orange;
+  margin: 10px;
+  float: left;
+}

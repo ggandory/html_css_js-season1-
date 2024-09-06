@@ -1,0 +1,61 @@
+/* .parent {
+  border: 5px solid red;
+  width: 600px;
+  overflow: auto;
+} */
+/*html 요소가 왼쪽에 있다고 해서 float:left가 기본값이 아니다.
+기본값은 float:none임 */
+/* .child { */
+/* background-color: gold; */
+/* width: 200px; */
+/* height: 300px;
+  /* display: inline-block; */
+/* float: right; */
+/* margin: auto;얘는 inline성질 있는 태그는 적용 안됨
+  만약 굳이 중앙에 위치시키고 싶으면 부모세대에 text-align:center를 주면됨*/
+/* } */
+
+/* .parent {
+  border: 5px solid black;
+  width: 600px;
+}
+
+.top {
+  background-color: violet;
+  height: 50px;
+}
+
+.left {
+  background-color: aquamarine;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+.right {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+  float: right;
+}
+
+.clear {
+  background-color: violet;
+  height: 50px;
+  clear: both;
+} */
+
+section {
+  border: 5px solid black;
+  width: 600px;
+  overflow: auto;
+}
+
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+  box-sizing: border-box;
+}

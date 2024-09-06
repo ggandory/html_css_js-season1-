@@ -1,0 +1,42 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 5px double blue;
+  border-bottom: none; /*이렇게도 처리가능 아래만 안나옴*/
+  border-top: 5px dashed red; /*위에만 다르게 표현 가능*/
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: doderblue;
+  border: 10px solid orange;
+  margin: 10px;
+  float: left;
+}
+
+.box1 {
+  text-align: center;
+  border-radius: 20px;
+}
+.box2 {
+  border-radius: 50px;
+}
+.box3 {
+  border-radius: 50%;
+}
+.box4 {
+  border-radius: 50px 0 50px 0;
+}
+.box5 {
+  border-radius: 200px 0 0 0;
+}
+.box6 {
+  border-radius: 20px;
+}
+.box7 {
+  border-radius: 20px;
+}
+.box8 {
+  border-radius: 20px;
+}

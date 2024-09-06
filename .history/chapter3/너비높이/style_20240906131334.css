@@ -1,0 +1,15 @@
+.box {
+  border: 3px solid blueviolet;
+  width: 400px;
+  height: 400px;
+  margin: 100px;
+  padding: 100px;
+}
+
+.heading {
+  border: 3px solid violet;
+  width: 300px;
+  text-align: center;
+  margin: 100px;
+  padding: 100px;
+}

@@ -14,18 +14,10 @@
   width: 400px;
   height: 400px;
 }
-/*스페이스로 띄어서 표현하면 그 자손선택자(모든 자식들 포함인듯)
-만약 >로 표현을 한다면 바로 그 밑에 자식만 표현함*/
+
 .box > div {
   border: 1px solid blue;
   width: 200px;
   height: 200px;
   padding: 20px;
-  border-radius: 40%;
-}
-.box > div div {
-  width: 50px;
-  height: 50px;
-  background-color: black;
-  margin: auto;
 }
