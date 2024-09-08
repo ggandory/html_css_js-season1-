@@ -25,25 +25,8 @@ header article {
 }
 .box2 {
   background-color: greenyellow;
-  overflow: hidden;
 }
 .box2 article {
-  /*자식요소인 여기서 float가 들어가서
-  부모요소인 box2의 높이값이 사라짐*/
-  width: 33.333333%;
-  height: 300px;
-  float: left;
-}
-.sub1 {
-  background-color: darkgray;
-}
-.sub2 {
-  background-color: lightgray;
-}
-.sub3 {
-  background-color: lightslategray;
 }
 footer {
-  background-color: skyblue;
-  height: 100px;
 }

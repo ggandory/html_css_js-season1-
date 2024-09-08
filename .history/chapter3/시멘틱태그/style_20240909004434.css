@@ -1,0 +1,28 @@
+.container {
+  border: 1px solid red;
+  width: 1200px;
+  margin: auto;
+}
+header {
+  background-color: skyblue;
+}
+header article {
+  background-color: gray;
+  width: 300px;
+  height: 100px;
+}
+.logo {
+  float: left;
+}
+.navi {
+  float: right;
+}
+
+.box1 {
+}
+.box2 {
+}
+.box2 article {
+}
+footer {
+}
