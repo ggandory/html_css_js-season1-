@@ -30,10 +30,16 @@ body {
   display: block;
   color: #333;
   text-decoration: none;
-  margin: 10px;
-  border-bottom: 1px solid #000;
+  margin: 5px;
 }
 
-.tab a:last-child {
-  border-bottom: none;
+.tab a:first-child {
+}
+.tab a:nth-child(2) {
+}
+.tab a:nth-child(3) {
+}
+.tab a:nth-child(4) {
+}
+.tab a:nth-child(5) {
 }
