@@ -1,0 +1,27 @@
+.box {
+  border: 1px solid black;
+  text-align: center;
+}
+.box div {
+  border: 1px solid #000;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.box div:first-child {
+  background-color: dodgerblue;
+}
+.box div:nth-child(2) {
+  background-color: red;
+}
+.box div:nth-child(3) {
+  background-color: #fff;
+}
+
+.box div:last-child {
+  background-color: yellow;
+}
+
+/*nth-of-type()은 같은 태그로 순서를 체크함*/

@@ -1,0 +1,35 @@
+.parent {
+  position: relative;
+  border: 1px solid darkgray;
+  width: 500px;
+  height: 500px;
+}
+.parent div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+}
+
+.child1 {
+  top: 0;
+  left: 0;
+}
+.child2 {
+  bottom: 0;
+  left: 0;
+}
+.child3 {
+  bottom: -200;
+  right: 0;
+}
+.child4 {
+  right: 0;
+  top: 0;
+}
+
+.child5 {
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}

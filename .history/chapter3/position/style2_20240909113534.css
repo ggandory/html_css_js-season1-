@@ -1,0 +1,20 @@
+.parent {
+  position: relative;
+  border: 1px solid darkgray;
+}
+
+.child1 {
+  position: absolute;
+}
+.child2 {
+  position: absolute;
+}
+.child3 {
+  position: absolute;
+}
+.child4 {
+  position: absolute;
+}
+.child5 {
+  position: absolute;
+}

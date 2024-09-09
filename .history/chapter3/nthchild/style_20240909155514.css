@@ -1,0 +1,11 @@
+.box {
+  border: 1px solid black;
+  text-align: center;
+}
+.box div {
+  border: 1px solid #000;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}

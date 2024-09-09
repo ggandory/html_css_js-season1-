@@ -1,0 +1,35 @@
+body {
+  margin: 100px;
+}
+.btn span {
+  background-color: #ddd;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  border: 1px solid #000;
+  margin-right: -7px;
+}
+.btn span:first-child {
+  background-color: #fff;
+}
+.btn span:last-child {
+  color: red;
+}
+
+.tab {
+  border: 1px solid #000;
+}
+
+.tab a:first-child {
+}
+.tab a:nth-child(2) {
+}
+.tab a:nth-child(3) {
+}
+.tab a:nth-child(4) {
+}
+.tab a:nth-child(5) {
+}

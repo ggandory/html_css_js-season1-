@@ -1,0 +1,15 @@
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: dodgerblue;
+}
