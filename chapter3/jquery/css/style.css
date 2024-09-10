@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.show {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+}
+.hide {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+}
+.box {
+  background-color: darkcyan;
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  margin-left: 400px;
+  margin-top: 30px;
+}

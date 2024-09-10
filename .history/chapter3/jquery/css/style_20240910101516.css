@@ -1,0 +1,13 @@
+.show {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  width: 100px;
+}
+.hide {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+}
+.box {
+}
