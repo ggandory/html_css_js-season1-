@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DropDown Navigation</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
+
+    body {
+      font-family: 'Noto Sans KR, sans-serif';
+      color: #222;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #222;
+      text-decoration: none;
+    }
+
+    .dropdown {}
+
+    .dropdown-btn {
+      width: 200px;
+      padding: 10px;
+      font-size: 20px;
+      background-color: green;
+      color: #fff;
+      border: none;
+      outline: none;
+      /*보통 아웃라인은 없애버림*/
+      cursor: pointer;
+    }
+
+    .dropdown-submenu {
+      border: 1px solid #000;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(185, 216, 141, 0.885);
+      display: none;
+    }
+
+    .dropdown-submenu a {
+      display: block;
+      padding: 7px;
+      text-align: center;
+    }
+
+    .dropdown-submenu a:hover {
+      background-color: #eee;
+    }
+
+    .dropdown:hover .dropdown-submenu {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="dropdown">
+    <button class="dropdown-btn">
+      Real Estate Type
+    </button>
+    <div class="dropdown-submenu">
+      <a href="#none">All</a>
+      <a href="#none">one room</a>
+      <a href="#none">1.5 rooms</a>
+      <a href="#none">Two Room</a>
+      <a href="#none">Three Room</a>
+      <a href="#none">officetel</a>
+      <a href="#none">Apartment</a>
+    </div>
+  </div>
+
+  <script src="script/jquery-3.7.1.js"></script>
+  <script src="script/custom.js"></script>
+</body>
+
+
+</html>
