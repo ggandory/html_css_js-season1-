@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #222;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+/*수직중앙 수평중앙처리하는 방법중 하나 position방법
+.container {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+  */

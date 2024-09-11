@@ -25,7 +25,6 @@ a {
   height: 200px;
   display: inline-block;
   position: relative;
-  margin: 10px;
 }
 .front,
 .back {
@@ -41,8 +40,7 @@ a {
   z-index: 1; /*백 클래스랑 같은 z인덱스 높이를 가지고 있어서 바꾼거임*/
   width: 100%;
 }
-.item:hover .front img {
-  animation: ani 1s linear infinite;
+.front img {
 }
 .front h2 {
   margin-top: 0;
@@ -54,14 +52,12 @@ a {
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  opacity: 0;
 }
 .back a {
   background-color: yellowgreen;
   color: #fff;
   padding: 5px 15px;
   border-radius: 20px;
-  font-size: 13px;
 }
 
 .back a:hover {
@@ -72,15 +68,4 @@ a {
 }
 .item:hover .back {
   top: 50%;
-  opacity: 1;
-}
-
-@keyframes ani {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
 }

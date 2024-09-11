@@ -24,25 +24,13 @@ a {
   width: 300px;
   height: 200px;
   display: inline-block;
-  position: relative;
-  margin: 10px;
 }
-.front,
-.back {
-  position: absolute;
-  transition: 0.5s;
-  top: 0;
-}
-
 .front {
   background-color: #333;
   text-align: center;
   height: inherit;
-  z-index: 1; /*백 클래스랑 같은 z인덱스 높이를 가지고 있어서 바꾼거임*/
-  width: 100%;
 }
-.item:hover .front img {
-  animation: ani 1s linear infinite;
+.front img {
 }
 .front h2 {
   margin-top: 0;
@@ -54,33 +42,16 @@ a {
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  opacity: 0;
+}
+.back p {
 }
 .back a {
   background-color: yellowgreen;
   color: #fff;
   padding: 5px 15px;
   border-radius: 20px;
-  font-size: 13px;
 }
 
 .back a:hover {
   background-color: rgb(166, 244, 8);
-}
-.item:hover .front {
-  top: -50%;
-}
-.item:hover .back {
-  top: 50%;
-  opacity: 1;
-}
-
-@keyframes ani {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
 }

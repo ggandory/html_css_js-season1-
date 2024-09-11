@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #222;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+/*수직중앙 수평중앙처리하는 방법중 하나 position방법
+.container {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+  */
+/*
+또다른 방법으로는
+상위층에다가
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  이거 처리한다.
+  마지막 height: 100vh처리하는 이유는 중앙으로 내려야 하기 때문
+*/
+
+.app-ui {
+  width: 340px;
+  height: 640px;
+  transform: rotate(-30deg) skewX(20deg);
+  position: relative;
+}
+.app-ui img {
+  position: absolute;
+  transition: 0.5s;
+}
+
+.app-ui:hover img:nth-child(1) {
+  transform: translate(40px, -40px);
+  opacity: 0.4;
+}
+.app-ui:hover img:nth-child(2) {
+  transform: translate(80px, -80px);
+  opacity: 0.6;
+}
+.app-ui:hover img:nth-child(3) {
+  transform: translate(120px, -120px);
+  opacity: 0.8;
+}
+.app-ui:hover img:nth-child(4) {
+  transform: translate(160px, -160px);
+}

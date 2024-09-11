@@ -25,7 +25,6 @@ a {
   height: 200px;
   display: inline-block;
   position: relative;
-  margin: 10px;
 }
 .front,
 .back {
@@ -76,11 +75,13 @@ a {
 }
 
 @keyframes ani {
-  0%,
-  100% {
+  0% {
     transform: scale(1);
   }
   50% {
     transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
