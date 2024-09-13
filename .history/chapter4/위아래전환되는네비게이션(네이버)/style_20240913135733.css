@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #222;
+  margin: 0;
+  background: linear-gradient(90deg, #dce35b, #45b649);
+}
+a {
+  color: #222;
+  text-decoration: none;
+  text-decoration: none;
+}
+.gnb {
+}
+.gnb a {
+}
+.gnb a span {
+}
+.gnb a span:nth-child(1) {
+}
+.gnb a span:nth-child(2) {
+}
