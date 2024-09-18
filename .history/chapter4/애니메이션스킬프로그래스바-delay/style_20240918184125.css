@@ -47,7 +47,7 @@ a {
   height: 10px;
   background: linear-gradient(to right, rgb(194, 52, 80), yellowgreen);
   animation: ani 1.2s;
-  animation-fill-mode: both; /*0에서 100퍼센트갔다가 다시 0으로 오는걸 방지함 즉 100퍼센트에 머물게 하는거임*/
+  animation-fill-mode: both; /*0에서 100퍼센트갔다가 다시 0으로 오는걸 방지함*/
 }
 
 @keyframes ani {
@@ -61,14 +61,14 @@ nth-of-type으로 같은 타입인것들의 순서로 정해줘야한다.*/
   animation-delay: 0s;
 }
 .skill-progress .item:nth-of-type(2) .progress-level {
-  animation-delay: 0.15s;
+  animation-delay: 0.2s;
 }
 .skill-progress .item:nth-of-type(3) .progress-level {
-  animation-delay: 0.3s;
+  animation-delay: 0.4s;
 }
 .skill-progress .item:nth-of-type(4) .progress-level {
-  animation-delay: 0.45s;
+  animation-delay: 0.6s;
 }
 .skill-progress .item:nth-of-type(5) .progress-level {
-  animation-delay: 0.6s;
+  animation-delay: 0.8s;
 }

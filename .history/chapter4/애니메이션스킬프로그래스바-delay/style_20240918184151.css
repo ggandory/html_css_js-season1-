@@ -47,7 +47,7 @@ a {
   height: 10px;
   background: linear-gradient(to right, rgb(194, 52, 80), yellowgreen);
   animation: ani 1.2s;
-  animation-fill-mode: both; /*0에서 100퍼센트갔다가 다시 0으로 오는걸 방지함 즉 100퍼센트에 머물게 하는거임*/
+  animation-fill-mode: both; /*0에서 100퍼센트갔다가 다시 0으로 오는걸 방지함*/
 }
 
 @keyframes ani {
