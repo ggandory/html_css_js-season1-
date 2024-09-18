@@ -45,16 +45,12 @@ a {
   /* border: 1px solid blue; */
   text-align: center;
   line-height: 40px;
-  transition: 0.4s;
 }
 
 .item input:focus {
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   box-shadow: 0 0 5px rgba(30, 143, 255, 0.619);
 }
 .item input:focus + .fa-solid {
   color: dodgerblue;
-}
-.item input:focus::placeholder {
-  visibility: hidden;
 }

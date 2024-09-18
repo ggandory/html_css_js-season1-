@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+.item {
+  /* border: 1px solid red; */
+  width: 300px;
+  margin-bottom: 10px;
+}
+.item input[type="text"],
+.item input[type="email"],
+.item input[type="tel"] {
+  border: 1px solid lightgray;
+  height: 40px;
+  width: inherit;
+}
+
+.item .fa-solid {
+  display: none;
+}

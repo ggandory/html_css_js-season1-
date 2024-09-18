@@ -45,7 +45,6 @@ a {
   /* border: 1px solid blue; */
   text-align: center;
   line-height: 40px;
-  transition: 0.4s;
 }
 
 .item input:focus {
@@ -54,7 +53,4 @@ a {
 }
 .item input:focus + .fa-solid {
   color: dodgerblue;
-}
-.item input:focus::placeholder {
-  visibility: hidden;
 }

@@ -55,6 +55,3 @@ a {
 .item input:focus + .fa-solid {
   color: dodgerblue;
 }
-.item input:focus::placeholder {
-  visibility: hidden;
-}

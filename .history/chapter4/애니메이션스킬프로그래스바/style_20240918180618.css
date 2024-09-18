@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  background-color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+
+.skill-progress {
+  width: 500px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 20px 50px #3333332e;
+}
+.item {
+}
+.item p {
+  overflow: hidden;
+}
+.item p span:nth-child(1) {
+  float: left; /*float를 자식에게 줬으므로 부모 높이값이 없어지므로 overflow 줌(높이 줘도 됨)*/
+}
+.item p span:nth-child(2) {
+  float: right;
+}
+.progress {
+  border: 1px solid #6cd4c4;
+  padding: 5px;
+  border-radius: 3px;
+}
+.progress-level {
+}

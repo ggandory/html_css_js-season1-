@@ -29,7 +29,7 @@ a {
   border-radius: 5px;
   padding: 10px;
   box-sizing: border-box;
-  padding-left: 40px;
+  padding-left: 50px;
   outline: none;
   transition: 0.4s;
 }
@@ -38,7 +38,8 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  color: gray;
+  color: #fff;
+  background-color: gray;
   font-size: 22px;
   width: 40px;
   height: 40px;
@@ -46,6 +47,7 @@ a {
   text-align: center;
   line-height: 40px;
   transition: 0.4s;
+  border-radius: 5px 0 0 5px;
 }
 
 .item input:focus {
@@ -53,7 +55,7 @@ a {
   box-shadow: 0 0 5px rgba(30, 143, 255, 0.619);
 }
 .item input:focus + .fa-solid {
-  color: dodgerblue;
+  background-color: dodgerblue;
 }
 .item input:focus::placeholder {
   visibility: hidden;
