@@ -18,6 +18,8 @@ a {
   padding-bottom: 5px;
 }
 
+.gnb {
+}
 .gnb a {
   position: relative;
 }
@@ -33,7 +35,7 @@ a {
   transform: translateX(-50%);
 }
 .gnb a:hover:before {
-  width: 0;
+  width: 100%;
 }
 
 /* 선으로 왼쪽에서 오른쪽으로 이동

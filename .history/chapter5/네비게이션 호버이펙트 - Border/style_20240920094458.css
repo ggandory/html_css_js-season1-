@@ -18,6 +18,8 @@ a {
   padding-bottom: 5px;
 }
 
+.gnb {
+}
 .gnb a {
   position: relative;
 }
@@ -26,17 +28,18 @@ a {
   position: absolute;
   background-color: crimson;
   height: 2px;
-  width: 100%;
+  width: 0;
   bottom: 0;
   transition: 0.5s;
+  border-radius: 50%;
   left: 50%;
   transform: translateX(-50%);
 }
 .gnb a:hover:before {
-  width: 0;
+  width: 100%;
 }
 
-/* 선으로 왼쪽에서 오른쪽으로 이동
+/*
 .gnb a:before {
   content: "";
   position: absolute;
@@ -50,7 +53,7 @@ a {
   width:100%
 }
 */
-/* 점으로 왼쪽에서 오른쪽으로 이동
+/*
 .gnb a:before {
   content: "";
   position: absolute;
@@ -64,25 +67,5 @@ a {
 }
 .gnb a:hover:before {
   left: calc(100% - 4px);
-}
-*/
-
-/* 중앙에서부터 좌우로 선이 이동
-.gnb a {
-  position: relative;
-}
-.gnb a:before {
-  content: "";
-  position: absolute;
-  background-color: crimson;
-  height: 2px;
-  width: 0;
-  bottom: 0;
-  transition: 0.5s;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.gnb a:hover:before {
-  width: 100%;
 }
 */
