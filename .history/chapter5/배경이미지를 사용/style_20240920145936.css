@@ -54,6 +54,3 @@ a {
 .grade input[type="radio"]:checked + label {
   color: crimson;
 }
-.grade label {
-  cursor: pointer;
-}

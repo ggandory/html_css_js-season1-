@@ -40,7 +40,7 @@ a {
 }
 .grade label em {
   /* border: 1px solid red; */
-  display: inline-block;
+  display: inline;
   width: 18px;
   height: 18px;
   vertical-align: middle;
@@ -50,10 +50,4 @@ a {
 }
 .grade input[type="radio"]:checked + label em {
   background-position: right center;
-}
-.grade input[type="radio"]:checked + label {
-  color: crimson;
-}
-.grade label {
-  cursor: pointer;
 }

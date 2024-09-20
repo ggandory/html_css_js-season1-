@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: 300;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+
+.custom input[type="checkbox"] {
+  display: none;
+}
+.custom label em {
+  border: 1px solid red;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  /* vertical-align: middle; */
+  margin-right: 5px;
+}

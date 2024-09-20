@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: 300;
+  background-color: #fff;
+  background-image: url(images/snow-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: auto;
+}
+a {
+  text-decoration: none;
+}

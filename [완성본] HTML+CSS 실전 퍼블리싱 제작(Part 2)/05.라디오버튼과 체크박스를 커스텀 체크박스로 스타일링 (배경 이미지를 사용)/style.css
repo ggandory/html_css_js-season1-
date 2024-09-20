@@ -1,25 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+/* Google Web Fonts CDN */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   line-height: 1.5em;
   margin: 0;
   font-weight: 300;
-  background-color: #fff;
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; */
+  height: 100vh;
 }
 a {
   text-decoration: none;
 }
-
-.custom input[type="checkbox"] {
+.custom input[type=checkbox] {
   display: none;
 }
 .custom label em {
-  /* border: 1px solid red; */
+  /*border: 1px solid red;*/
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -28,18 +27,18 @@ a {
   background: url(images/checkbox-02.png) no-repeat;
   background-position: left center;
 }
-.custom input[type="checkbox"]:checked + label em {
+.custom input[type=checkbox]:checked + label em {
   background-position: right center;
 }
-.custom label {
-  cursor: pointer;
-}
 
-.grade input[type="radio"] {
+.grade input[type=radio] {
   display: none;
 }
+.grade label {
+  cursor: pointer;
+}
 .grade label em {
-  /* border: 1px solid red; */
+  /*border: 1px solid red;*/
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -48,12 +47,18 @@ a {
   background: url(images/radio-01.png) no-repeat;
   background-position: left center;
 }
-.grade input[type="radio"]:checked + label em {
+.grade input[type=radio]:checked + label em {
   background-position: right center;
 }
-.grade input[type="radio"]:checked + label {
+.grade input[type=radio]:checked + label {
   color: crimson;
 }
-.grade label {
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
