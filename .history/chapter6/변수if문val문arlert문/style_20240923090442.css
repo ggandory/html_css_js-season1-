@@ -44,6 +44,8 @@ a {
   filter: grayscale(0);
   border-radius: 50%;
 }
+.testimonial {
+}
 .testimonial .content {
   display: none;
 }

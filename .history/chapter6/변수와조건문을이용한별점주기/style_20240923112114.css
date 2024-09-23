@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/*보통 font-size안주면 16px정도로 줌*/
+a {
+  text-decoration: none;
+}

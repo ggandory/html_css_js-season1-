@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/*보통 font-size안주면 16px정도로 줌*/
+a {
+  text-decoration: none;
+}
+.star-rating {
+  background-color: #333;
+  width: 280px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.star-rating div {
+  width: 50%;
+  float: left;
+}
+.stars {
+}
+.stars .fa-solid {
+  cursor: pointer;
+}
+.stars .fa-solid.active {
+  color: yellow;
+  text-shadow: 0 0 5px yellow;
+}
+.print {
+  color: #fff;
+}
