@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  color: #333;
+  font-weight: 400;
+}
+/*a태그는 색상을 따로 줘야 색상이 입혀짐*/
+a {
+  text-decoration: none;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/*layout*/
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section article {
+  border: 1px solid red;
+  width: 980px;
+  height: 600px;
+  background-color: #fff;
+}
+.heading {
+  box-sizing: border-box;
+  padding-top: 15px;
+  text-align: center;
+  border: 1px solid #333;
+  height: 150px;
+}
+.heading span {
+  color: crimson;
+  font-size: 24px;
+}
+.heading h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+.heading h1 em {
+  font-style: normal;
+  border: 1px solid #000;
+  position: relative;
+}
+.heading h1 em:after {
+  content: url(images/logo-kakao.png);
+  position: absolute;
+  right: -35px;
+  top: -30px;
+}
+.content {
+}
+.content > div {
+  border: 1px solid blue;
+  width: 50%;
+  float: left;
+  height: 450px;
+  box-sizing: border-box;
+}
+.accordion {
+}
+.title {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.title:after {
+  content: "\f105";
+  font-family: fontawesome;
+  float: right;
+  margin-right: 5px;
+  margin-top: 3px;
+  transition: 0.3s;
+}
+.title:hover,
+.title.active {
+  background-color: #203049;
+  color: #fff;
+}
+.desc {
+  padding: 20px;
+}
+.image {
+}
