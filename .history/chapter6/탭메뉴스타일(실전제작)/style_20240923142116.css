@@ -18,26 +18,51 @@ a {
 section {
   width: 800px;
 }
+.tab-inner {
+  margin-top: 30px;
+}
 .btn {
   list-style: none;
   padding: 0;
   margin: 0;
   overflow: hidden;
+  margin-left: 10px;
 }
 .btn li {
   float: left;
-  border: 1px solid #000;
-  background-color: lightgray;
+  background-color: #eee;
   cursor: pointer;
+  width: 120px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  padding: 5px;
+  /*밑에꺼 안넣어주면 덜컹거림 호버될때 border들어가기 때문 top에*/
+  border-top: 2px solid transparent;
 }
+.btn li:last-child {
+  width: 170px;
+  border-right: none;
+}
+.btn li:hover,
 .btn li.active {
   background-color: #fff;
+  border-top: 2px solid crimson;
 }
-
+.tabs {
+}
 .tabs div {
-  border: 1px solid #000;
-  height: 200px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 20px;
   display: none;
+  box-sizing: border-box;
+}
+.tabs div h2 {
+  font-weight: bold;
+  text-align: center;
+}
+.tabs div img {
+  float: left;
 }
 .tabs div.active {
   display: block;

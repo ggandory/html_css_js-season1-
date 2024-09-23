@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  color: #222;
+  background-color: #f4f4f4;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* a {
+  text-decoration: none;
+} */
+
+section {
+  width: 800px;
+}
+.heading {
+}
+.heading h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.heading h1 span {
+  color: crimson;
+}
+.heading input[type="text"] {
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #eee;
+  background: url(images/search-icon.png) no-repeat center left #fff;
+  background-size: 23px;
+  padding-left: 40px;
+}
+.heading input[type="text"]::placeholder {
+  font-style: italic;
+}
+
+.tab-inner {
+  margin-top: 30px;
+}
+.btn {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.btn li {
+  float: left;
+  background-color: #eee;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  padding: 5px;
+  /*밑에꺼 안넣어주면 덜컹거림 호버될때 border들어가기 때문 top에*/
+  border-top: 2px solid transparent;
+}
+.btn li:last-child {
+  width: 170px;
+  border-right: none;
+}
+.btn li:hover,
+.btn li.active {
+  background-color: #fff;
+  border-top: 2px solid crimson;
+}
+.tabs {
+}
+.tabs div {
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 20px;
+  display: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.tabs div h2 {
+  font-weight: bold;
+  text-align: center;
+}
+.tabs div img {
+  float: left;
+  margin-right: 20px;
+}
+.tabs div p {
+  overflow: hidden;
+}
+.tabs div.active {
+  display: block;
+}

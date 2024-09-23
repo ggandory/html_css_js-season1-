@@ -18,6 +18,8 @@ a {
 section {
   width: 800px;
 }
+.tab-inner {
+}
 .btn {
   list-style: none;
   padding: 0;
@@ -29,11 +31,17 @@ section {
   border: 1px solid #000;
   background-color: lightgray;
   cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+.btn li:last-child {
+  width: 200px;
 }
 .btn li.active {
   background-color: #fff;
 }
-
+.tabs {
+}
 .tabs div {
   border: 1px solid #000;
   height: 200px;

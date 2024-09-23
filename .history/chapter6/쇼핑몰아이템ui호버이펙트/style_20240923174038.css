@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  color: #222;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.item {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.item img {
+}
+/*position:absolute가 들어가면 display 속성이 inline-block으로 바뀜 근데 detail안에 내용이 아무것도 없으므로 내용만큼 크기를 가지게 되기때문에 0이 된다. 그래서 width에 100%를 주는거임*/
+.detail {
+  padding: 5px 20px;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  /* bottom: -85%; */
+  bottom: -50%;
+  left: 0;
+  height: 100%;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+.item:hover .detail {
+  bottom: -50%;
+}
+.title {
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+.title h2 {
+  font-size: 16px;
+  color: #888;
+  line-height: 1.2em;
+  float: left;
+}
+.title h2 em {
+  font-style: normal;
+  font-size: 20px;
+  display: block; /*한줄에 하나밖에 못있음*/
+  margin-bottom: 5px;
+  color: #333;
+}
+.title span {
+  float: right;
+  margin-top: 15px;
+  font-size: 18px;
+  color: crimson;
+}
+
+.info {
+  position: relative;
+}
+/*size*/
+.size {
+}
+.size label {
+  display: block;
+}
+.size span {
+  font-size: 12px;
+  background-color: #000;
+  color: #fff;
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  text-align: center;
+  line-height: 15px;
+  padding: 3px;
+  border-radius: 3px;
+}
