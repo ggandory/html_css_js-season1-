@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animation Modal with target 가상클래스</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button id="modalOpenButton">모달창 열기</button>
+
+  <div id="modalContainer" class="hidden">
+    <div id="modalContent">
+      <p>모달 창 입니다.</p>
+      <button id="modalCloseButton">닫기</button>
+    </div>
+  </div>
+  <script>
+    const modalOpenButton = document.getElementById('modalOpenButton');
+    const modalCloseButton = document.getElementById('modalCloseButton');
+    const modal = document.getElementById('modalContainer');
+
+    modalOpenButton.addEventListener('click', () => {
+      modal.classList.remove('hidden');
+    });
+
+    modalCloseButton.addEventListener('click', () => {
+      modal.classList.add('hidden');
+    });
+  </script>
+</body>
+
+</html>

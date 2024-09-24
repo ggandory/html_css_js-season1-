@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animation Modal with target 가상클래스</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a href="#modal-notice">Open Modal with :target</a>
+
+  <div id="modal-notice" class="modal">
+    <div class="modal-content">
+      <a href="#" class="btn-close">×</a>
+      <!--이게 보니까 href='#'으로 처리하면 원래 뒤쪽에
+      #modal-notice이걸로 가있었던거여서 #으로 이동하면 다시 원상복귀여서 x누르면 모달창 없어지는거임-->
+      <div class="modal-body">
+        <h2>Welcome to Teams!</h2>
+        <img src="group.png">
+        <p>
+          Microsoft Teams is a collaboration app built for hybrid work so you and your team stay informed, organized,
+          and connected — all in one place.
+        </p>
+        <a class="btn-guide" href="#none">Open Guide</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
