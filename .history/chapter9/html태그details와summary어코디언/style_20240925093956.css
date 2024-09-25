@@ -34,9 +34,9 @@ details summary {
   cursor: pointer;
   margin-bottom: 10px;
 }
-details[open] summary {
+/* details[open] summary {
   font-weight: bold;
-}
+} */
 details summary:after {
   content: "\f107";
   font-family: fontawesome;
