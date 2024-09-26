@@ -1,0 +1,26 @@
+사각형 이미지맵 링크 만들기
+
+<img src="이미지파일 경로" usemap="#coupon">
+<map name="coupon">
+  <area shape="rect" coords="117.507.445.553" href="#" title="쿠폰 다운로드">
+</map>
+네모 이미지맵 좌표(4): 왼쪽상단 x, y좌표값 /오른쪽 하단 x,y 좌표값
+
+원형 이미지맵 링크 만들기
+<img src="이미지파일 경로" usemap="#browser-list">
+<map name="browser-list">
+  <area shape="circle" coords="320.682.60" href="#" title="크롬 브라우저">
+</map>
+<map name="browser-list">
+  <area shape="circle" coords="400.682.60" href="#" title="파이어폭스">
+</map>
+<map name="browser-list">
+  <area shape="circle" coords="480.682.60" href="#" title="인터넷 익스플로러">
+</map>
+<map name="browser-list">
+  <area shape="circle" coords="560.682.60" href="#" title="오페라">
+</map>
+
+원형 이미지맵 좌표(3개): 원의중앙 x, y좌표값 /원의 반지름
+
+//좌표값 얻는 방법: 윈도우 보조프로그램 그림판을 이용
