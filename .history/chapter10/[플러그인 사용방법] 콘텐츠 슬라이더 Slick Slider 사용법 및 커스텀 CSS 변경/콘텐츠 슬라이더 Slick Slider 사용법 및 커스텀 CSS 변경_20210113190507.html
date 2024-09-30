@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,29 +17,24 @@
       background-color: pink;
       margin: 0;
     }
-
     .myslider {
       width: 800px;
       margin: auto;
     }
-
     .myslider div {
       border: 1px solid #000;
       height: 300px;
       background-color: #ddd;
       font-size: 30px;
     }
-
     .myslider .slick-arrow {
-      /* border: 1px solid #000; */
-      /* display: none !important; */
+      border: 1px solid #000;
+      display: none !important;
     }
-
     .myslider .slick-dots {
       border: 1px solid #000;
       /* display: none !important; */
       bottom: 0;
-
     }
 
     @media (max-width: 768px) {
@@ -50,7 +44,6 @@
     }
   </style>
 </head>
-
 <body>
 
   <div class="myslider">
@@ -71,12 +64,13 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       speed: 500,
       fade: false,
       cssEase: 'linear',
       dots: true,
-      responsive: [{
+      responsive: [
+        {
           breakpoint: 1024,
           settings: {
             slidesToShow: 3,
@@ -105,7 +99,6 @@
       ]
     });
   </script>
-
+  
 </body>
-
 </html>
