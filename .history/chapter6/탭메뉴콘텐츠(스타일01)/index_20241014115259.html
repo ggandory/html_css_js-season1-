@@ -57,10 +57,10 @@
       //tab1 == $(this).attr('data-alt')
     // })
     const images = document.querySelectorAll('.testimonial-pic img');
-    const contents = document.querySelectorAll('.testimonial .content');
+const contents = document.querySelectorAll('.testimonial .content');
 
-    images.forEach(function(image) {
-    image.addEventListener('click', function() {
+images.forEach(function(image) {
+  image.addEventListener('click', function() {
     images.forEach(function(img) {
       img.classList.remove('active');
     });

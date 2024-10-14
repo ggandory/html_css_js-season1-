@@ -38,28 +38,13 @@
     // Open Modal with Page Loading
     // $('.modal, .overlay').addClass('active')
 
-    // Open Modal with Click 제이쿼리 방식
-    // $('.btn-open').click(function () {
-    //   $('.modal, .overlay').addClass('active')
-    // })
-    // $('.btn-close, .overlay').click(function () {
-    //   $('.modal, .overlay').removeClass('active')
-    // })
-    document.querySelector('.btn-open').addEventListener('click', function() {
-  document.querySelector('.modal').classList.add('active');
-  document.querySelector('.overlay').classList.add('active');
-});
-
-document.querySelector('.btn-close').addEventListener('click', function() {
-  document.querySelector('.modal').classList.remove('active');
-  document.querySelector('.overlay').classList.remove('active');
-});
-
-document.querySelector('.overlay').addEventListener('click', function() {
-  document.querySelector('.modal').classList.remove('active');
-  document.querySelector('.overlay').classList.remove('active');
-});
-
+    // Open Modal with Click
+    $('.btn-open').click(function () {
+      $('.modal, .overlay').addClass('active')
+    })
+    $('.btn-close, .overlay').click(function () {
+      $('.modal, .overlay').removeClass('active')
+    })
   </script>
 
 </body>

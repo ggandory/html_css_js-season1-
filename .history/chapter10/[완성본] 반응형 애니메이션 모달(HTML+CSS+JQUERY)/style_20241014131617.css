@@ -45,7 +45,7 @@ body {
   background-size: cover;
 }
 .desc {
-  flex: 2;
+  /* flex: 2; */
   text-align: center;
 }
 .overlay {
