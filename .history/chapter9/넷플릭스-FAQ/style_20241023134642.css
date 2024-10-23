@@ -53,7 +53,7 @@ body {
   transform: rotate(45deg);
 }
 .accordion .title.active {
-  background-color: #e50914;
+  /* background-color: #e50914; */
 }
 .accordion .content {
   display: none;
